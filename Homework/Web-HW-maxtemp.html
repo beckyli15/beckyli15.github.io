@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Web-HW</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-sm bg-light navbar-light">
+        <!-- Brand -->
+        <a class="navbar-brand" href="Web-HW.html">&nbspLatitude&nbsp</a>
+        
+        <!-- Toggler/collapsibe Button -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+      
+        <!-- Links -->
+        <ul class="navbar-nav ml-auto">
+      
+          <!-- Dropdown -->
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+              Plots
+            </a>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="Web-HW-maxtemp.html">Max Temperature</a>
+              <a class="dropdown-item" href="Web-HW-humidity.html">Humidity</a>
+              <a class="dropdown-item" href="Web-HW-cloudiness.html">Cloudiness</a>
+              <a class="dropdown-item" href="Web-HW-windspeed.html">Wind Speed</a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="Plots.html">Comparison</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="Data.html">Data</a>
+          </li>
+        </ul>
+      </nav>
+      <br>
+        
+      
+       
+      <div class="container">
+      <div class="row">
+          <div class="col-lg-8">
+              <article class="box">  
+              <h2>Summary: Latitude vs. Max Temperature</h2>
+              <section>
+                  <hr>
+              <p><img class="img-fluid" src="assets/images/Fig1.png" alt="City Lat vs. Max Temp" width=450px height=300px ALIGN="left">
+              In this graph, as lattitude gets closer to 0 degree the max temperature increases, and after lattitude gets pass 0 degree the max temperature decreases.   </p>
+              <p>Therefore, there is a correlation between lattitude and max temperature and cities closest to 0 degree lattitude have the highest max temperature. </p>
+              </article>
+              </div>
+          
+         
+          <div class="col-lg-4">
+          <div class="container-fluid">
+          <h2>Visualizations</h2>
+          <br>
+          <div class="row">
+          <div class="col-lg-6">      
+          <a href="Web-HW-maxtemp.html"> <img class="img-thumbnail" src="assets/images/Fig1.png" alt="City Lat vs. Max Temp"data-toggle="tooltip" title="City Lat vs. Max Temp">
+         </a>
+          </div>
+            <div class="col-lg-6">
+            <a href="Web-HW-humidity.html"><img class="img-fluid" src="assets/images/Fig2.png" alt="City Lat vs. Humidity"data-toggle="tooltip" title="City Lat vs. Humidity">
+            </a>
+            </div>
+          </div>
+              <div class="row">
+            <div class="col-lg-6">
+                <a href="Web-HW-cloudiness.html"><img class="img-fluid" src="assets/images/Fig3.png" alt="City Lat vs. Cloudiness"data-toggle="tooltip" title="City Lat vs. Cloudiness">
+                </a>
+                </div>
+            
+              <div class="col-lg-6">
+              <a href="Web-HW-windspeed.html"><img class="img-fluid"src="assets/images/Fig4.png" alt="City Lat vs. Wind Speed"data-toggle="tooltip" title="City Lat vs. Wind Speed">
+              </a>
+              </div>
+              </section>
+       
+          </div>
+      </div>
+      </div>
+                   
+          
+      
+      </div>
+      </body>
+      </html>

@@ -1,0 +1,30 @@
+.navbar-brand{
+  background-color: turquoise;
+  color: white !important;
+  font-weight: bold;
+  }
+  .navbar-nav{
+  float: right;
+  }
+  body{
+  background-color:silver;
+  }
+  
+  .container-fluid{
+  background-color: white;
+  }
+
+  .box{
+  float: left;
+  background-color:white;
+  }
+  
+ h2{
+   color: turquoise
+ }
+
+
+ .table{
+  padding-left: ($spacer * .5) !important;
+  padding-right: ($spacer * .5) !important;
+ }

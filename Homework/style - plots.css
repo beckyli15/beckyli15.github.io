@@ -1,0 +1,29 @@
+.navbar-brand{
+  background-color: turquoise;
+  color: white !important;
+  font-weight: bold;
+  }
+  .navbar-nav{
+  float: right;
+  }
+  body{
+  background-color:silver;
+  }
+  
+  .container{
+  background-color: white;
+  }
+
+  .box{
+  float: left;
+  background-color:white;
+  }
+  
+  h2{
+    color: turquoise
+  }
+
+  h3{
+    color: turquoise;
+    text-align: center;
+  }
